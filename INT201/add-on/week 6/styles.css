@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container p{
+    font-size: 32px;
+    color: red;
+}
+
+.container div{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.pokeCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 10px;
+}
+
+.pokeCard p{
+    font-size: 18px;
+    color: blue;
+}
+
+.pokeImg {
+    width: 120px;
+    height: 120px;
+}
+
