@@ -12,3 +12,20 @@ console.log(domByName) //NodeList(3) [input#colorRed, input#colorGreen, input#co
 console.log(domClassName)//HTMLCollection(6) [li.list-item, li.list-item,...]
 console.log(domQuerySelector)//<h2 class="heading">Document Object Model</h2>
 console.log(domQuerySelectorAll)//NodeList(2) [h2.heading, h2.heading
+
+// lacture Show Error is a number and create p 
+// let createP = document.createElement('p')
+// let scriptElement = document.querySelector('script')
+// scriptElement.insertAdjacentElement(`beforebegin`,createP) //ต่อหน้า
+// // scriptElement.insertAdjacentElement(`afterend`,createP) //ต่อหลัง
+// const inputElements = document.querySelectorAll('input');
+// inputElements.forEach(inputElement => {
+//     inputElement.addEventListener('keypress', (event) => {
+//         const inputValue = event.target.value;
+//         if (!isNaN(inputValue)) {
+//             event.preventDefault();
+//             console.log('It is a number');
+//             createP.textContent = 'It is a number'
+//         }
+//     });
+// });
